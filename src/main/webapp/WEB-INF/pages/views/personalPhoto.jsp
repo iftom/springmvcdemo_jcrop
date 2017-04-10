@@ -38,7 +38,7 @@
                         <p id="AlertForIE89" class="alert_for_IE">请保证您的本地目录路径上载至服务器功能开启！</p>
                         <div class="upLoad upload_img_left">
                             <span>上传头像</span>
-                            <form id="myForm" action="/personal/upload" class="upload_form" method="POST" enctype="multipart/form-data" name="form1">
+                            <form id="myForm" action="/upload" class="upload_form" method="POST" enctype="multipart/form-data" name="form1">
                                 <input class="photo-file" type="file" unselectable="on" name="file"  accept="image/jpg, image/jpeg, image/png" id="fcupload" onchange="readURLMy(this);" />
                                 <img id="target" alt="" style="" name="" src="" >
                                 <input type="hidden" id="x" name="x" />
