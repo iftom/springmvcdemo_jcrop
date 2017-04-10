@@ -19,9 +19,9 @@
 <div class="content clearfix">
     <div class="left_tab_menu clearfix">
         <ul>
-            <li><a href="https://iftom.github.io/">裁剪并上传头像</a></li>
-            <li><a href="https://iftom.github.io/">转载请注明出处:</a></li>
-            <li><a href="https://iftom.github.io/">https://iftom.github.io</a></li>
+            <li><a href="http://wangxiaoyu.date/">裁剪并上传头像</a></li>
+            <li><a href="http://wangxiaoyu.date/">转载请注明出处:</a></li>
+            <li><a href="http://wangxiaoyu.date/">wangxiaoyu.date</a></li>
         </ul>
     </div>
     <div class="right_content clearfix">
