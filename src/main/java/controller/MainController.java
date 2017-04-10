@@ -33,8 +33,13 @@ public class MainController {
     private static final Logger logger = LoggerFactory.getLogger(MainController.class);
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String index() {
-        return "index";
+    public String index(ModelMap map, HttpServletResponse response, HttpServletRequest request) {
+        /**
+         * 当前头像的地址放在config.properties里，每次上传也会更新
+         */
+        PropertiesUtil util = new PropertiesUtil();
+        map.put("avatarUrl", util.getAvatarUrl());
+        return "/views/personalPhoto";
     }
 
     @RequestMapping(value = "/personalPhoto", method = RequestMethod.GET)

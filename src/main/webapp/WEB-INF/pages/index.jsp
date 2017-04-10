@@ -5,7 +5,7 @@
 <body>
 <h1>这里是SpringMVC Demo首页</h1>
 
-<h3>出现此页面，说明配置成功。!!!</h3>
+<h3><a href="/personalPhoto">点击此处跳转到上传头像页面</a></h3>
 
 </body>
 </html>
